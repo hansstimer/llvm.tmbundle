@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>load ${1:volatile }${2:type}* ${3:pointer}${4:, align ${5:1}${7:, !nontemporal !${8:index}}}</string>
+	<key>name</key>
+	<string>load</string>
+	<key>scope</key>
+	<string>source.llvm</string>
+	<key>tabTrigger</key>
+	<string>load</string>
+	<key>uuid</key>
+	<string>11A40E19-E3B9-4543-87EA-9E6A5125F284</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>store ${1:volatile }${2:type}* ${3:source}, ${4:type}* ${5:destPtr}${6:${7:, align ${8:1}}${9:, !nontemporal !${10:index}}}
+</string>
+	<key>name</key>
+	<string>store</string>
+	<key>scope</key>
+	<string>source.llvm</string>
+	<key>tabTrigger</key>
+	<string>store</string>
+	<key>uuid</key>
+	<string>2F50DC84-D5E4-4F2C-ABCA-D20F319FC59F</string>
+</dict>
+</plist>

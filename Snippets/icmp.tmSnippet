@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>icmp ${1:cond} ${2:type} ${3:op1}, ${4:op2}</string>
+	<key>name</key>
+	<string>icmp</string>
+	<key>scope</key>
+	<string>source.llvm</string>
+	<key>tabTrigger</key>
+	<string>icmp</string>
+	<key>uuid</key>
+	<string>13190998-C2DB-473F-AE0D-A244C8D3223D</string>
+</dict>
+</plist>

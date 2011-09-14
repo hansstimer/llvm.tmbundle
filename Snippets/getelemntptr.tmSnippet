@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>getelemntptr ${1:ptype}* ${2:ptrval}${3:, ${4:type} ${5:index}}${6:, ${7:type} ${8:index}}</string>
+	<key>name</key>
+	<string>getelemntptr</string>
+	<key>scope</key>
+	<string>source.llvm</string>
+	<key>tabTrigger</key>
+	<string>getel</string>
+	<key>uuid</key>
+	<string>D5DDB9D8-C01E-40A1-BCD3-1A845F2585D6</string>
+</dict>
+</plist>

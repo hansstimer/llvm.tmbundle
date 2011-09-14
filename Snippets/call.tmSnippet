@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:tail} call ${2:cconv} ${3:ret_attrs} ${4:ty} ${5:${6:fnty}*} ${7:fnptrval}(${8:})</string>
+	<key>name</key>
+	<string>call</string>
+	<key>scope</key>
+	<string>source.llvm</string>
+	<key>tabTrigger</key>
+	<string>call</string>
+	<key>uuid</key>
+	<string>C2BB0944-87A9-4BD6-9D8F-47B27CEF6EE2</string>
+</dict>
+</plist>

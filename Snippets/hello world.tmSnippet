@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@msg = internal constant [13 x i8] c"Hello World!\00"
+
+declare i32 @puts(i8*)
+
+define i32 @main() {
+	call i32 @puts(i8* getelementptr inbounds ([13 x i8]* @msg, i32 0, i32 0))
+	ret i32 0
+}</string>
+	<key>name</key>
+	<string>hello world</string>
+	<key>scope</key>
+	<string>source.llvm</string>
+	<key>tabTrigger</key>
+	<string>hello</string>
+	<key>uuid</key>
+	<string>65FEB2F9-BB25-40AC-AE26-51155F3AB8D3</string>
+</dict>
+</plist>

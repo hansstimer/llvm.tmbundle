@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>LLVM</string>
+	<key>ordering</key>
+	<array>
+		<string>F22D0646-3CC3-43E8-A182-11DE7FA86DB0</string>
+		<string>1020DDA3-814A-4BA4-B1D0-B4AE9924B1F0</string>
+		<string>D90BB719-3DE6-4886-A55D-9E4FA92BA535</string>
+		<string>11A40E19-E3B9-4543-87EA-9E6A5125F284</string>
+		<string>73D0A496-90D5-41C2-8FB0-748611003966</string>
+		<string>C2BB0944-87A9-4BD6-9D8F-47B27CEF6EE2</string>
+		<string>1E042FFA-C7B1-4EFC-847D-2F65F282BF29</string>
+		<string>D5DDB9D8-C01E-40A1-BCD3-1A845F2585D6</string>
+		<string>65FEB2F9-BB25-40AC-AE26-51155F3AB8D3</string>
+		<string>13190998-C2DB-473F-AE0D-A244C8D3223D</string>
+		<string>A621CE02-EA98-4FCF-A0A4-F783E18C998D</string>
+		<string>2F50DC84-D5E4-4F2C-ABCA-D20F319FC59F</string>
+	</array>
+	<key>uuid</key>
+	<string>52ED32D8-AB0A-46C0-A724-158F76C11271</string>
+</dict>
+</plist>

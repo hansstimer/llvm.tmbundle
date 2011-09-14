@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>define ${1:linkage }${2:visiblity }${3:cconv }${4:retattrs }${5:ResultType} @${6:FunctionName} (${7: }) {
+	${8: }
+}</string>
+	<key>name</key>
+	<string>define</string>
+	<key>scope</key>
+	<string>source.llvm</string>
+	<key>tabTrigger</key>
+	<string>def</string>
+	<key>uuid</key>
+	<string>1E042FFA-C7B1-4EFC-847D-2F65F282BF29</string>
+</dict>
+</plist>
