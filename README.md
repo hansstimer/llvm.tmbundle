@@ -1,4 +1,4 @@
-=LLVM TextMate Bundle
+#LLVM TextMate Bundle
 
 This is a TextMate Bundle for viewing and editing [LLVM](http://llvm.org/) (Low Level Virtual Machine) assembly files (.ll).
 
