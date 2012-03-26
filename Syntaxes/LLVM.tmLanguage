@@ -2,12 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>fileTypes</key>
-	<array>
-		<string>ll</string>
-	</array>
-	<key>name</key>
-	<string>LLVM</string>
+	<key>changed</key>
+	<dict>
 		<key>patterns</key>
 		<array>
 			<dict>
@@ -68,9 +64,27 @@
 				<key>name</key>
 				<string>constant.numeric.integer.llvm</string>
 			</dict>
+			<dict>
+				<key>begin</key>
+				<string>"</string>
+				<key>end</key>
+				<string>"</string>
+				<key>name</key>
+				<string>string.quoted.double.llvm</string>
+				<key>patterns</key>
+				<array>
+					<dict>
+						<key>match</key>
+						<string>\.</string>
+						<key>name</key>
+						<string>constant.character.escape.llvm</string>
+					</dict>
+				</array>
+			</dict>
 		</array>
-	<key>scopeName</key>
-	<string>source.llvm</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
 	<key>uuid</key>
 	<string>F22D0646-3CC3-43E8-A182-11DE7FA86DB0</string>
 </dict>
