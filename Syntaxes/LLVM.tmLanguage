@@ -21,35 +21,41 @@
 			<key>comment</key>
 			<string>llvm instructions</string>
 			<key>match</key>
-			<string>\b(add|alloca|and|ashr|bitcast|br|call|eq|exact|extractelement|extractvalue|fadd|fcmp|fdiv|fmul|fpext|fptosi|fptoui|fptrunc|free|frem|fsub|getelementptr|icmp|inbounds|indirectbr|insertelement|insertvalue|inttoptr|invoke|load|lshr|malloc|mul|ne|nsw|nuw|oeq|oge|ogt|ole|olt|one|or|ord|phi|ptrtoint|ret|sdiv|select|sext|sge|sgt|shl|shufflevector|sitofp|sle|slt|srem|store|sub|switch|trunc|udiv|ueq|uge|uge|ugt|ugt|uitofp|ule|ule|ult|ult|une|uno|unreachable|unwind|urem|va_arg|xor|zext)\b</string>
+			<string>\b(add|alloca|and|ashr|bitcast|br|call|eq|exact|extractelement|extractvalue|fadd|fcmp|fdiv|fmul|fpext|fptosi|fptoui|fptrunc|free|frem|fsub|getelementptr|icmp|inbounds|indirectbr|insertelement|insertvalue|inttoptr|invoke|load|lshr|malloc|mul|ne|nsw|nuw|oeq|oge|ogt|ole|olt|one|or|ord|phi|ptrtoint|ret|sdiv|select|sext|sge|sgt|shl|shufflevector|sitofp|sle|slt|srem|store|sub|switch|to|trunc|udiv|ueq|uge|uge|ugt|ugt|uitofp|ule|ule|ult|ult|une|uno|unreachable|unwind|urem|va_arg|xor|zext)\b</string>
 			<key>name</key>
-			<string>meta.function-call.llvm</string>
+			<string>keyword.instruction.llvm</string>
 		</dict>
 		<dict>
 			<key>comment</key>
 			<string>llvm keywords</string>
 			<key>match</key>
-			<string>\b(addrspace|alias|align|alignstack|alwaysinline|appending|asm|blockaddress|byval|c|cc|ccc|coldcc|common|constant|datalayout|declare|default|define|deplibs|dllexport|dllimport|except|extern_weak|external|fastcc|gc|global|hidden|inlinehint|inreg|internal|linkonce|linkonce_odr|metadata|module|naked|nest|noalias|nocapture|noimplicitfloat|noinline|noredzone|noreturn|nounwind|optsize|private|protected|ptx_device|ptx_kernel|readnone|readonly|section|sideeffect|signext|sret|ssp|sspreq|tail|target|thread_local|to|triple|uwtable|volatile|weak|weak_odr|x86_fastcallcc|x86_stdcallcc|zeroext)\b</string>
+			<string>\b(addrspace|alias|align|alignstack|alwaysinline|appending|asm|blockaddress|byval|c|cc|ccc|coldcc|common|constant|datalayout|declare|default|define|deplibs|dllexport|dllimport|except|extern_weak|external|fastcc|gc|global|hidden|inlinehint|inreg|internal|linkonce|linkonce_odr|metadata|module|naked|nest|noalias|nocapture|noimplicitfloat|noinline|noredzone|noreturn|nounwind|optsize|private|protected|ptx_device|ptx_kernel|readnone|readonly|section|sideeffect|signext|sret|ssp|sspreq|tail|target|thread_local|triple|uwtable|volatile|weak|weak_odr|x86_fastcallcc|x86_stdcallcc|zeroext)\b</string>
 			<key>name</key>
-			<string>keyword.llvm</string>
+			<string>storage.modifier.llvm</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\s([%@][-a-zA-Z$._][-a-zA-Z$._0-9]*)</string>
+			<string>\W([%@][-a-zA-Z$._][-a-zA-Z$._0-9]*(\s*\*)+)</string>
+			<key>name</key>
+			<string>storage.type.llvm</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\W(void|i\d+\**|half|float|double|fp128|x86_fp80|ppc_fp128|x86mmx|label|metadata)</string>
+			<key>name</key>
+			<string>storage.type.language.llvm</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\W([%@][-a-zA-Z$._][-a-zA-Z$._0-9]*)</string>
 			<key>name</key>
 			<string>variable.llvm</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\s([%]\d+)</string>
+			<string>\W([%]\d+)</string>
 			<key>name</key>
 			<string>variable.language.llvm</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\b(i\d+\**)</string>
-			<key>name</key>
-			<string>storage.type.language.llvm</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -86,7 +92,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\.</string>
+					<string>\..</string>
 					<key>name</key>
 					<string>constant.character.escape.lvvm</string>
 				</dict>
